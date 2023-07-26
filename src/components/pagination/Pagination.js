@@ -92,7 +92,7 @@ const Pagination = ({ handlingChangePage, currentpage, dataPages }) => {
             </span>
           </li>
           <li
-            className={`page-item ${currentpage > dataPages - 3 && 'disabled'}`}
+            className={`page-item ${currentpage > dataPages - 2 && 'disabled'}`}
           >
             <span
               className="page-link"
