@@ -1,0 +1,23 @@
+.paginationSection {
+  color: var(--primaryColor);
+  span {
+    color: var(--primaryColor) !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .paginationSection {
+    h3,
+    span {
+      font-size: 12px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .paginationSection {
+    h3,
+    span {
+      font-size: 8px;
+    }
+  }
+}

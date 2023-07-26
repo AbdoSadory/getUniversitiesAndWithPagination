@@ -1,0 +1,24 @@
+.universitiesSection {
+  min-height: 450px;
+}
+.universitiesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .universitiesContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px;
+  }
+}
+@media (max-width: 425px) {
+  .universitiesContainer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 10px;
+  }
+}
